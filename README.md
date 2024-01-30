@@ -40,14 +40,14 @@ Follow these instructions to get the project up and running on your local machin
 # Parse data from collections/
 /api/parse: Sends a POST request with the following JSON payload to initiate scraping for a specific URL:
 
-```
+```json
 {
   "url": "http://brostore.uz/collections/...."
 }
 ```
 
 Example Response:
-```
+```json
 {
   "id": 1,
   "title": "Some",
