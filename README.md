@@ -27,24 +27,17 @@ Follow these instructions to get the project up and running on your local machin
 
    ```bash
    git clone https://github.com/yourusername/goscraper.git
-Navigate to the project directory:
 
-cd goscraper
-Run the main.go file:
+2. Navigate to the project directory:
 
-go run main.go
+   ```bash
+   cd goscraper
+
+3. Run the main.go file:
+   ```bash
+   go run main.go
+
 This command will start the application, and you should see output indicating that the server is running.
 
 Open your web browser and access the API at http://localhost:8080.
 
-API Endpoints
-/api/scrape: Initiates the scraping process and returns the scraped data.
-/api/images/{id}: Retrieves images associated with a specific item using its ID.
-Configuration
-You can configure the application by modifying the config.yaml file. Adjust the scraping URLs, API routes, and other settings as needed.
-
-Contributing
-Feel free to contribute by opening issues, providing feedback, or submitting pull requests. Your contributions are highly appreciated.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
