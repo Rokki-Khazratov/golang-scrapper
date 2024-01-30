@@ -1,6 +1,3 @@
-
-Certainly! Here's the combined content in one big README.md file:
-
 # GoScraper: E-commerce Data Scraper with Gorilla Mux
 
 GoScraper is a powerful data scraper written in Golang, utilizing the Gorilla Mux library for seamless RESTful API development. This application is designed to scrape data from popular e-commerce websites and Apple dealers in Central Asia. It goes beyond the typical scraping process by extracting information directly from HTML sources, allowing you to build APIs and retrieve images.
