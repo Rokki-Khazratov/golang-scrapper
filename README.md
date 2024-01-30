@@ -9,7 +9,9 @@ GoScraper is a powerful data scraper written in Golang, utilizing the Gorilla Mu
 - **E-commerce Data Scraper:** Scrapes data from popular e-commerce platforms and Apple dealers in Central Asia.
 - **HTML Parsing:** Extracts data directly from HTML, providing accurate and up-to-date information.
 - **Image Retrieval:** Fetches images associated with the scraped data, enhancing the overall value of the API.
-#Thumbnail
+
+## Thumbnail : 
+
 ![thumbnail](https://github.com/Rokki-Khazratov/web-scrapper-to-api/assets/93393135/8dbfd907-08df-4f89-9a71-8c8991ee6bb4)
 
 
@@ -57,12 +59,14 @@ Example Response:
 }
 ```
 
-#Videos
-frontend example:
+## Videos : 
+
+
+frontend example
 ![front](https://github.com/Rokki-Khazratov/web-scrapper-to-api/assets/93393135/f233518f-3d44-4929-b148-60f38342c9ac)
 
 
-postman api:
+postman api
 ![postman](https://github.com/Rokki-Khazratov/web-scrapper-to-api/assets/93393135/3f2d6f48-4506-4209-818b-3ef9400e615d)
 
 
