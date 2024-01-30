@@ -37,7 +37,26 @@ Follow these instructions to get the project up and running on your local machin
    ```bash
    go run main.go
 
+# Parse data from collections/
+/api/parse: Sends a POST request with the following JSON payload to initiate scraping for a specific URL:
+
+```
+{
+  "url": "http://brostore.uz/collections/...."
+}
+```
+
+Example Response:
+```
+{
+  "id": 1,
+  "title": "Some",
+  "variant-title": "some",
+  "image-1": "link",
+  "image-2": "link"
+}
+```
+
 This command will start the application, and you should see output indicating that the server is running.
 
 Open your web browser and access the API at http://localhost:8080.
-
